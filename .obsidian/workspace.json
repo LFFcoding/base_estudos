@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requisição.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Requisição"
+              "title": "README"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Requisição.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Requisição.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Requisição.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,13 +190,18 @@
   },
   "active": "62ceef886a7f5efe",
   "lastOpenFiles": [
-    "README.md",
+    "AGENTS.md",
+    "Backend.md",
+    "SSH.md",
+    "VPS.md",
     "Stack.md",
+    "GitHub.md",
+    "Git.md",
+    "README.md",
+    "Requisição.md",
     "Arquitetura/Requisição.md",
     "Framework.md",
     "Biblioteca.md",
-    "Requisição.md",
-    "Backend.md",
     "Frontend.md",
     "Arquitetura/Backend.md",
     "Visão geral/Stack.md",
@@ -205,7 +210,6 @@
     "Fundamentos/Biblioteca.md",
     "Visão geral",
     "Arquitetura",
-    "Fundamentos",
-    "AGENTS.md"
+    "Fundamentos"
   ]
 }
