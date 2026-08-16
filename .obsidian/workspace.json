@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a2495340c0b4cc5",
+        "id": "ebcd27224c551a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "62ceef886a7f5efe",
+            "id": "b99f211218f60a69",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nova aba"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,16 +181,18 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "62ceef886a7f5efe",
+  "active": "b99f211218f60a69",
   "lastOpenFiles": [
-    "AGENTS.md",
+    "Banco de dados.md",
+    "Stack.md",
+    "PostgreSQL.md",
     "Backend.md",
+    "README.md",
+    "AGENTS.md",
     "SSH.md",
     "VPS.md",
-    "Stack.md",
     "GitHub.md",
     "Git.md",
-    "README.md",
     "Requisição.md",
     "Arquitetura/Requisição.md",
     "Framework.md",
