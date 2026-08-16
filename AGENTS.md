@@ -38,6 +38,27 @@ Ao criar um novo arquivo:
 - usar os links do Obsidian para conectar assuntos relacionados, em vez de criar subpastas;
 - manter os nomes dos links simples, sem incluir caminhos de pastas, para que apareçam naturalmente nos textos.
 
+## Commits no Git
+
+Quando o usuário solicitar explicitamente, o agente deve revisar e criar um **commit** (*registro de uma versão*) com as alterações relacionadas aos assuntos criados ou atualizados naquele pedido.
+
+Antes do commit, o agente deve:
+
+- verificar o estado do repositório com `git status`;
+- revisar as alterações com `git diff`;
+- incluir somente as mudanças relacionadas ao pedido atual;
+- usar uma mensagem de commit no formato:
+
+```text
+criado(s): assunto1, assunto2; atualizado(s): assunto3, assunto4
+```
+
+Os nomes devem identificar os assuntos estudados, e não apenas repetir os nomes dos arquivos. Quando uma das categorias não tiver itens, usar `nenhum`. Por exemplo:
+
+```text
+criado(s): Docker Compose; atualizado(s): Stack, Backend
+```
+
 ## Regra para os arquivos
 
 Todo arquivo criado ou atualizado para explicar um assunto deve:
