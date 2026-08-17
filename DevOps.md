@@ -38,13 +38,13 @@ O trabalho costuma formar um ciclo contínuo:
 8. **monitor:** observar logs, métricas e comportamento;
 9. **feedback:** usar o que foi observado para planejar a próxima melhoria.
 
-Esse ciclo conecta [[Git]], [[CI/CD]], [[Docker]], ambientes e monitoramento.
+Esse ciclo conecta [[Git]], [[CI-CD]], [[Docker]], ambientes e monitoramento.
 
 ## Práticas importantes
 
 ### Integração contínua
 
-Alterações pequenas são enviadas com frequência para o repositório. O [[CI/CD]] executa compilação, testes e verificações automaticamente.
+Alterações pequenas são enviadas com frequência para o repositório. O [[CI-CD]] executa compilação, testes e verificações automaticamente.
 
 ### Entrega e implantação automatizadas
 
@@ -81,7 +81,7 @@ Um fluxo DevOps possível seria:
 
 1. uma pessoa altera o [[Backend]] Java ou o [[Frontend]] Next.js;
 2. cria um commit no [[Git]] e envia uma branch para o [[GitHub]];
-3. o [[CI/CD]] executa `./mvnw verify`, lint e build do frontend;
+3. o [[CI-CD]] executa `./mvnw verify`, lint e build do frontend;
 4. o pipeline constrói imagens [[Docker]] com uma versão baseada no commit;
 5. os containers são testados em um ambiente separado;
 6. uma aprovação libera a publicação;

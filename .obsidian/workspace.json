@@ -188,9 +188,11 @@
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
     "OIDC.md",
+    "CI/CD.md",
+    "CI",
+    "CI-CD.md",
     "Stack.md",
     "DevOps.md",
-    "CI-CD.md",
     "Next.js.md",
     "React.md",
     "Git.md",
@@ -212,7 +214,6 @@
     "AGENTS.md",
     "SSH.md",
     "VPS.md",
-    "GitHub.md",
     "Visão geral",
     "Arquitetura",
     "Fundamentos"

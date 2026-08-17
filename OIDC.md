@@ -68,7 +68,7 @@ OIDC pode ser usado em dois cenários diferentes:
 - **login de usuário:** uma pessoa entra no [[Frontend]] por meio de um provedor de identidade;
 - **identidade de workload:** um pipeline ou serviço prova sua identidade para outro serviço sem usar uma senha permanente.
 
-No segundo caso, OIDC é especialmente útil em [[CI/CD]] e [[DevOps]].
+No segundo caso, OIDC é especialmente útil em [[CI-CD]] e [[DevOps]].
 
 ## OIDC no GitHub Actions e AWS
 

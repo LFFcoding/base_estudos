@@ -46,6 +46,7 @@ Antes do commit, o agente deve:
 
 - verificar o estado do repositório com `git status`;
 - revisar as alterações com `git diff`;
+- confirmar que o commit será criado sempre na branch `main`;
 - incluir somente as mudanças relacionadas ao pedido atual;
 - incluir sempre no commit as alterações existentes dentro da pasta `.obsidian`;
 - não é necessário mencionar os arquivos da pasta `.obsidian` na mensagem do commit;
