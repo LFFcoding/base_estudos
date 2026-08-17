@@ -50,6 +50,7 @@ Antes do commit, o agente deve:
 - incluir somente as mudanças relacionadas ao pedido atual;
 - incluir sempre no commit as alterações existentes dentro da pasta `.obsidian`;
 - não é necessário mencionar os arquivos da pasta `.obsidian` na mensagem do commit;
+- executar `git push` após cada commit para enviar as alterações ao repositório remoto;
 - usar uma mensagem de commit no formato:
 
 ```text
