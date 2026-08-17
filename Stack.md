@@ -8,7 +8,7 @@ Podemos imaginar uma aplicação como uma casa. Cada tecnologia tem uma função
 
 Esta stack combina [[Framework|frameworks]], ferramentas, serviços e um ambiente de hospedagem. Cada parte tem uma responsabilidade diferente:
 
-- **[[Backend]] (servidor ou *server-side*):** [[Java 17]], [[Quarkus]] e [[Maven]] (`mvn`). O [[Backend]] recebe pedidos, aplica as regras do sistema e devolve respostas.
+- **[[Backend]] (servidor ou *server-side*):** [[Java|Java 17]], [[Quarkus]] e [[Maven]] (`mvn`). O [[Backend]] recebe pedidos, aplica as regras do sistema e devolve respostas.
 - **[[Banco de dados]] (*database*):** [[PostgreSQL]]. É onde as informações ficam guardadas.
 - **[[Frontend]] (interface do usuário ou *client-side*):** [[Next.js]] e [[React]]. É a parte que o usuário vê e utiliza.
 - **Execução e implantação (*deployment*):** [[Docker Compose]]. Ajuda a iniciar e organizar os serviços da aplicação.

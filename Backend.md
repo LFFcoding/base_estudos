@@ -31,7 +31,7 @@ Essa conversa normalmente acontece por meio de uma [[API]] (*Application Program
 
 Neste projeto, o backend será desenvolvido com:
 
-- [[Java 17]], a linguagem de programação;
+- [[Java|Java 17]], uma [[Linguagem de programação|linguagem de programação]];
 - [[Quarkus]], o [[Framework]] que ajuda a construir a aplicação;
 - [[Maven]], a ferramenta que organiza o projeto e suas dependências (*dependencies*).
 

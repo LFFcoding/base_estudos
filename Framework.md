@@ -22,7 +22,7 @@ Além de fornecer ferramentas, o framework também define alguns caminhos e padr
 
 Nesta [[Stack]], alguns exemplos são:
 
-- [[Quarkus]], usado para construir o [[Backend]] em [[Java 17]];
+- [[Quarkus]], usado para construir o [[Backend]] em [[Java|Java 17]];
 - [[Next.js]], usado para construir o [[Frontend]] com [[React]].
 
 ## Framework e [[Biblioteca]] são a mesma coisa?

@@ -13,7 +13,7 @@ Uma analogia é pensar em um gerente de arquivo:
 
 ## PostgreSQL na stack deste projeto
 
-Nesta [[Stack]], o PostgreSQL será o banco de dados da aplicação. O [[Backend]], construído com [[Java 17]] e [[Quarkus]], poderá enviar consultas SQL ou usar uma biblioteca/[[Framework]] para acessar os dados.
+Nesta [[Stack]], o PostgreSQL será o banco de dados da aplicação. O [[Backend]], construído com [[Java|Java 17]] e [[Quarkus]], poderá enviar consultas SQL ou usar uma biblioteca/[[Framework]] para acessar os dados.
 
 Uma aplicação normalmente não conversa com o PostgreSQL diretamente a partir do [[Frontend]]. O caminho mais seguro é:
 

@@ -116,7 +116,7 @@ Atualmente, alguns pontos de partida são:
 
 O Git é um sistema de **version control** (*controle de versões*). Ele funciona como um histórico das mudanças, permitindo voltar e entender como o material evoluiu.
 
-Depois de clonar o repositório, entre na pasta pelo terminal:
+Depois de clonar o repositório, entre na pasta pelo [[Terminal]]:
 
 ```bash
 cd caminho/para/Mega-brain
