@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack.md",
+                "file": "CI-CD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "CI-CD"
             }
           }
         ]
@@ -187,6 +187,10 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "OIDC.md",
+    "Stack.md",
+    "DevOps.md",
+    "CI-CD.md",
     "Next.js.md",
     "React.md",
     "Git.md",
@@ -195,7 +199,6 @@
     "Terminal.md",
     "PowerShell.md",
     "Prompt de comando.md",
-    "Stack.md",
     "Docker Compose.md",
     "Container.md",
     "Docker.md",
@@ -210,9 +213,6 @@
     "SSH.md",
     "VPS.md",
     "GitHub.md",
-    "Requisição.md",
-    "Arquitetura/Requisição.md",
-    "Framework.md",
     "Visão geral",
     "Arquitetura",
     "Fundamentos"

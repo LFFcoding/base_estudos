@@ -86,9 +86,9 @@ Um pull request não é apenas um botão para juntar código. Ele é um espaço 
 - usar um arquivo README claro para ajudar outras pessoas a entenderem o projeto;
 - remover ou corrigir rapidamente qualquer segredo exposto, lembrando que ele pode permanecer no histórico.
 
-## GitHub Actions
+## GitHub Actions e [[CI/CD]]
 
-O GitHub Actions é o recurso de automação (*automation*) do GitHub. Ele pode executar tarefas quando algo acontece no repositório, como:
+O GitHub Actions é o recurso de automação (*automation*) do GitHub. Ele pode executar tarefas de [[CI/CD]] quando algo acontece no repositório, como:
 
 - rodar testes quando um pull request é aberto;
 - verificar estilo e qualidade do código;
