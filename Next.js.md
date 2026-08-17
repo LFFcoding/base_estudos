@@ -139,7 +139,7 @@ O frontend deve chamar a API do backend e não acessar diretamente o [[PostgreSQ
 - manter páginas e componentes pequenos e fáceis de testar;
 - executar lint, testes e build antes da publicação;
 - não confiar em validações feitas apenas no frontend; o backend também deve validar;
-- usar acessibilidade e HTML semântico, facilitando o uso por diferentes pessoas;
+- usar acessibilidade e [[HTML]] semântico, facilitando o uso por diferentes pessoas;
 - manter dependências atualizadas com cuidado e revisar mudanças importantes.
 
 ## Resumo

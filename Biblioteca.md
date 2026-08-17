@@ -11,7 +11,7 @@ Por exemplo, se uma aplicação precisa transformar uma data em texto, podemos u
 Uma biblioteca pode ajudar a:
 
 - formatar datas, números e textos;
-- converter dados para JSON (*JavaScript Object Notation*) e de JSON para objetos;
+- converter dados para [[JSON]] (*JavaScript Object Notation*) e de JSON para objetos;
 - fazer [[Requisição|requisições]] HTTP (*HTTP requests*) para outros sistemas;
 - validar informações (*validation*);
 - trabalhar com arquivos;

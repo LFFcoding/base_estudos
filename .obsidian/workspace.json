@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI-CD.md",
+                "file": "JWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CI-CD"
+              "title": "JWT"
             }
           }
         ]
@@ -187,10 +187,17 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "CSS.md",
+    "HTML.md",
+    "JSON.md",
+    "CI-CD.md",
+    "JWT.md",
+    "Segurança.md",
+    "PKCE.md",
+    "OAuth 2.0.md",
     "OIDC.md",
     "CI/CD.md",
     "CI",
-    "CI-CD.md",
     "Stack.md",
     "DevOps.md",
     "Next.js.md",
@@ -207,13 +214,6 @@
     "Maven.md",
     "Quarkus.md",
     "Linguagem de programação.md",
-    "PostgreSQL.md",
-    "Banco de dados.md",
-    "Backend.md",
-    "README.md",
-    "AGENTS.md",
-    "SSH.md",
-    "VPS.md",
     "Visão geral",
     "Arquitetura",
     "Fundamentos"

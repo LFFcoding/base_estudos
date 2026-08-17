@@ -101,12 +101,12 @@ O body contém os dados enviados no pedido. Ele é mais comum em requisições `
 
 O formato do body é informado pelo header `Content-Type`. Alguns formatos comuns são:
 
-- `application/json`: usado para enviar objetos e listas;
+- `application/json`: usado para enviar objetos e listas em [[JSON]];
 - `application/x-www-form-urlencoded`: usado em formulários simples;
 - `multipart/form-data`: usado para enviar arquivos junto com campos;
 - `text/plain`: usado para enviar texto simples.
 
-Exemplo de body em JSON:
+Exemplo de body em [[JSON]]:
 
 ```json
 {

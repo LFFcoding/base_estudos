@@ -24,7 +24,7 @@ O OAuth 2.0 foi criado principalmente para delegar acesso a recursos. O OIDC adi
 
 O OIDC normalmente usa:
 
-- **ID token:** token com informações sobre a identidade autenticada;
+- **ID token:** normalmente um [[JWT]] com informações sobre a identidade autenticada;
 - **Access token:** credencial usada para acessar uma API autorizada;
 - **UserInfo endpoint:** endereço que pode fornecer informações do usuário;
 - **Discovery document:** documento que informa os endpoints, chaves e configurações do provedor;
@@ -45,11 +45,11 @@ Um fluxo comum para uma aplicação web é:
 7. a aplicação valida o ID token;
 8. a aplicação cria uma sessão e usa o access token quando precisa chamar uma API.
 
-Esse fluxo é conhecido como **Authorization Code Flow**. Para aplicações públicas, como as executadas no navegador, use PKCE (*Proof Key for Code Exchange*) para dificultar o uso indevido de um código interceptado.
+Esse fluxo é conhecido como **Authorization Code Flow**. Para aplicações públicas, como as executadas no navegador, use [[PKCE]] (*Proof Key for Code Exchange*) para dificultar o uso indevido de um código interceptado.
 
 ## O que deve ser validado?
 
-Uma aplicação não deve aceitar um token apenas porque ele parece um JSON válido. Ela precisa validar, entre outras coisas:
+Uma aplicação não deve aceitar um token apenas porque ele parece um [[JSON]] válido. Ela precisa validar, entre outras coisas:
 
 - assinatura do token;
 - emissor (*issuer*), confirmando quem o emitiu;
@@ -113,9 +113,9 @@ Essa política é apenas um exemplo. Em um ambiente real, substitua os valores, 
 
 Eles podem participar de arquiteturas parecidas, mas não são nomes diferentes para o mesmo protocolo.
 
-## Boas práticas e segurança
+## Boas práticas e [[Segurança]]
 
-- usar Authorization Code Flow com PKCE em aplicações públicas;
+- usar Authorization Code Flow com [[PKCE]] em aplicações públicas;
 - validar assinatura, emissor, audiência, expiração e escopos dos tokens;
 - não aceitar qualquer issuer ou audience informado pelo cliente;
 - armazenar tokens com cuidado e limitar sua duração;

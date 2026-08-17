@@ -56,13 +56,13 @@ Nesse exemplo:
 
 ## JSX
 
-React costuma usar JSX, uma sintaxe que permite escrever algo parecido com HTML dentro do código JavaScript ou TypeScript.
+React costuma usar JSX, uma sintaxe que permite escrever algo parecido com [[HTML]] dentro do código JavaScript ou TypeScript. A aparência desses elementos pode ser definida com [[CSS]].
 
 ```tsx
 const mensagem = <p>Estudando React</p>;
 ```
 
-JSX não é HTML puro. Ele é transformado em chamadas que o React usa para criar a interface.
+JSX não é [[HTML]] puro. Ele é transformado em chamadas que o React usa para criar a interface.
 
 ## React e backend
 

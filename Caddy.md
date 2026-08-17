@@ -2,7 +2,7 @@
 
 **Caddy** é um servidor web (*web server*) e proxy reverso (*reverse proxy*). Ele recebe conexões da internet e encaminha cada requisição para o serviço correto.
 
-Nesta [[Stack]], o Caddy pode ficar na frente do [[Frontend]] e do [[Backend]], recebendo acessos HTTP e HTTPS. Ele também pode servir arquivos estáticos, como HTML, CSS, JavaScript e imagens.
+Nesta [[Stack]], o Caddy pode ficar na frente do [[Frontend]] e do [[Backend]], recebendo acessos HTTP e HTTPS. Ele também pode servir arquivos estáticos, como [[HTML]], [[CSS]], JavaScript e imagens.
 
 Uma analogia é a entrada de um prédio:
 
