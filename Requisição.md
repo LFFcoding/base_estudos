@@ -184,7 +184,7 @@ Esse caminho faz parte da comunicação entre as camadas da [[Stack]] da aplica�
 - definir limites de tamanho para URLs, headers e body;
 - configurar tempo limite (*timeout*) e tratar falhas de rede;
 - usar um identificador de requisição (*request ID*) para acompanhar o pedido nos logs;
-- tornar operações que podem ser repetidas seguras contra duplicação, usando idempotência (*idempotency*) quando necessário.
+- tornar operações que podem ser repetidas seguras contra duplicação, usando [[Idempotência]] (*idempotency*) quando necessário.
 
 ## Segurança
 

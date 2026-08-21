@@ -45,6 +45,8 @@ Os dados são guardados como documentos, frequentemente parecidos com [[JSON]]:
 
 Documentos podem ter campos diferentes, mas flexibilidade não elimina a necessidade de validar o formato.
 
+O [[MongoDB]] é um exemplo conhecido de banco orientado a documentos. Ele guarda documentos BSON em coleções e permite consultar campos, listas e documentos aninhados.
+
 ### Colunas largas (*wide-column*)
 
 Os dados são organizados para distribuir grandes volumes e consultar determinados grupos de colunas. Esse modelo aparece em sistemas que precisam de escala horizontal e alto volume de escrita.
@@ -106,6 +108,7 @@ Uma aplicação pode usar:
 - [[PostgreSQL]] para usuários, pedidos, pagamentos e relacionamentos importantes;
 - [[Redis]] para sessões, [[Cache|cache]] e contadores temporários;
 - um banco de documentos para catálogos cujo formato muda com frequência;
+- [[MongoDB]] para dados que se encaixam bem no modelo de documentos;
 - uma [[Filas|fila]] para trabalhos assíncronos.
 
 Usar mais de uma tecnologia aumenta as capacidades, mas também aumenta a complexidade operacional. Cada banco precisa de monitoramento, backups, segurança, atualização e conhecimento da equipe.

@@ -29,7 +29,7 @@ O PKCE associa o código a uma execução específica da aplicação. A aplicaç
 
 - **`code_verifier`**: valor aleatório, longo e temporário criado pela aplicação. Ele deve ser guardado até a troca do código.
 - **`code_challenge`**: valor derivado do `code_verifier` e enviado no início do fluxo.
-- **`S256`**: método recomendado para criar o desafio. Ele calcula `SHA-256` e codifica o resultado em *Base64 URL-safe*.
+- **`S256`**: método recomendado para criar o desafio. Ele calcula [[SHA-256]] e codifica o resultado em *Base64 URL-safe*.
 - **Authorization code**: código de autorização de uso único e curta duração.
 - **Token endpoint**: endpoint que recebe o código e o `code_verifier` para devolver os tokens.
 

@@ -63,7 +63,7 @@ Mesmo assim, sessões contêm dados sensíveis. Use expiração, proteção de a
 
 Uma fila permite receber um trabalho agora e executá-lo depois. Por exemplo, o backend pode colocar um pedido para enviar e-mail em uma fila, enquanto um worker processa a tarefa em segundo plano.
 
-Listas e Streams podem ajudar nesse cenário, mas é importante escolher a estratégia de confirmação, reprocessamento e tratamento de falhas. Uma fila simples não substitui automaticamente um sistema de mensageria completo.
+Listas e Streams podem ajudar nesse cenário, mas é importante escolher a estratégia de confirmação, reprocessamento e tratamento de falhas. Uma fila simples não substitui automaticamente um sistema de [[Protocolos de mensageria|mensageria]] completo.
 
 ### Pub/Sub
 

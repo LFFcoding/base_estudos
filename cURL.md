@@ -173,7 +173,7 @@ curl --connect-timeout 5 \
 - `--max-time` limita o tempo total;
 - `--fail-with-body` retorna erro para status HTTP de falha sem esconder o corpo da resposta.
 
-Em chamadas que podem ser repetidas, configure tentativas com cuidado. Repetir automaticamente um `POST` pode criar dados duplicados se a operação não for idempotente.
+Em chamadas que podem ser repetidas, configure tentativas com cuidado. Repetir automaticamente um `POST` pode criar dados duplicados se a operação não for [[Idempotência|idempotente]].
 
 ## cURL em scripts e no CI/CD
 
@@ -207,7 +207,7 @@ O cURL não substitui os [[Testes]] da aplicação. Ele ajuda a verificar o comp
 - use placeholders em exemplos públicos;
 - codifique corretamente URLs, query parameters e bodies;
 - escape dados quando gerar comandos automaticamente;
-- evite repetir métodos que alteram dados sem garantir idempotência;
+- evite repetir métodos que alteram dados sem garantir [[Idempotência]];
 - revise comandos copiados da internet antes de executá-los;
 - combine cURL com as práticas de [[Segurança]] e com o contrato da API.
 

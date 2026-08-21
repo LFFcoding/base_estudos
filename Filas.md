@@ -45,7 +45,7 @@ A tarefa secundária não precisa bloquear a resposta principal.
 - **Produtor (*producer*)**: componente que publica uma mensagem.
 - **Consumidor (*consumer*)**: componente que recebe e processa a mensagem.
 - **Worker**: processo que executa o trabalho recebido.
-- **Broker**: serviço que armazena e distribui mensagens.
+- **[[Broker de fila|Broker]]**: serviço que armazena e distribui mensagens.
 - **Acknowledgement (*ack*)**: confirmação de que a mensagem foi processada.
 - **Retry**: nova tentativa depois de uma falha.
 - **Dead-letter queue (DLQ)**: fila para mensagens que falharam várias vezes.
@@ -60,7 +60,7 @@ Nem toda fila garante exatamente a mesma ordem ou uma única entrega.
 - **at-least-once**: uma mensagem não deveria ser perdida, mas pode ser entregue mais de uma vez;
 - **exactly-once**: promete uma única entrega em condições específicas, mas não elimina todos os problemas da operação completa.
 
-Em muitos sistemas distribuídos, o consumidor deve estar preparado para receber a mesma mensagem duas vezes. Por isso, o processamento deve ser **idempotente**: repetir a operação não pode causar um efeito incorreto, como cobrar duas vezes o mesmo pagamento.
+Em muitos sistemas distribuídos, o consumidor deve estar preparado para receber a mesma mensagem duas vezes. Por isso, o processamento deve ser [[Idempotência|idempotente]]: repetir a operação não pode causar um efeito incorreto, como cobrar duas vezes o mesmo pagamento.
 
 ## Exemplo simples com Redis
 
@@ -90,7 +90,7 @@ Se um assinante de pub/sub estiver desconectado, ele pode perder a mensagem. Par
 
 Uma fila não substitui automaticamente o [[PostgreSQL]]. O PostgreSQL pode guardar o estado principal de um pedido, enquanto a fila coordena tarefas que precisam acontecer depois.
 
-Um padrão comum é salvar o pedido e o evento de envio na mesma transação, usando o **outbox pattern**. Depois, um publicador lê os eventos pendentes e os envia para a fila. Isso reduz o risco de salvar o pedido e perder a mensagem entre duas operações separadas.
+Um padrão comum é salvar o pedido e o evento de envio na mesma transação, usando o [[Outbox Pattern]]. Depois, um publicador lê os eventos pendentes e os envia para a fila. Isso reduz o risco de salvar o pedido e perder a mensagem entre duas operações separadas.
 
 ## Filas na AWS
 
@@ -98,7 +98,7 @@ Na AWS, o [Amazon SQS](https://docs.aws.amazon.com/sqs/) é um serviço gerencia
 
 O SQS reduz a necessidade de instalar e manter um broker em uma [[VPS]], mas envolve cobrança por uso, configuração de permissões IAM, filas padrão ou FIFO, tempo de visibilidade, retenção e tratamento de mensagens mortas. Para publicar uma mensagem a vários destinos, o Amazon SNS pode ser combinado com filas SQS.
 
-Em uma [[VPS]], a equipe pode executar um broker com [[Docker Compose]], mas precisa cuidar de atualizações, armazenamento, backups, monitoramento, segurança e alta disponibilidade.
+Em uma [[VPS]], a equipe pode executar um [[Broker de fila|broker]] com [[Docker Compose]], mas precisa cuidar de atualizações, armazenamento, backups, monitoramento, segurança e alta disponibilidade.
 
 ## Segurança
 
@@ -117,7 +117,7 @@ Uma fila pode conter dados importantes por mais tempo do que uma requisição. T
 
 - mantenha as mensagens pequenas e com um formato versionado;
 - inclua um identificador único para facilitar deduplicação e rastreamento;
-- faça consumidores idempotentes;
+- faça consumidores [[Idempotência|idempotentes]];
 - defina timeout, retry com espera progressiva (*exponential backoff*) e limite de tentativas;
 - envie mensagens problemáticas para uma DLQ;
 - monitore tamanho da fila, idade da mensagem, falhas e tempo de processamento;
