@@ -25,6 +25,8 @@ Nesta [[Stack]], alguns exemplos são:
 - [[Quarkus]], usado para construir o [[Backend]] em [[Java|Java 17]];
 - [[Next.js]], usado para construir o [[Frontend]] com [[React]].
 
+Outro framework de backend é o [[NestJS]], usado para construir APIs e serviços com [[Node.js]] e TypeScript. Ele é uma alternativa tecnológica, não parte da stack principal definida para este projeto.
+
 ## Framework e [[Biblioteca]] são a mesma coisa?
 
 Não exatamente.

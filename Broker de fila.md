@@ -92,7 +92,7 @@ Um broker pode entregar mensagens de formas diferentes:
 - **por chave de roteamento**: regras escolhem a fila conforme um campo ou padrão;
 - **por prioridade**: mensagens importantes podem ser processadas antes de outras, se o broker suportar essa política.
 
-Em RabbitMQ, por exemplo, exchanges recebem mensagens e usam regras para encaminhá-las às filas. Em serviços com tópicos, um publicador envia para o assunto e várias filas ou consumidores podem receber uma cópia.
+Em [[RabbitMQ]], por exemplo, [[Exchanges e bindings|exchanges]] recebem mensagens e usam bindings para encaminhá-las às filas. Em serviços com tópicos, um publicador envia para o assunto e várias filas ou consumidores podem receber uma cópia.
 
 ## Fila, pub/sub e stream
 
@@ -126,7 +126,7 @@ Para evitar salvar o pedido e perder a mensagem em uma segunda operação, consi
 
 ## Exemplos de tecnologias
 
-- **RabbitMQ**: broker tradicional com filas, exchanges, roteamento e protocolos como AMQP;
+- **[[RabbitMQ]]**: broker tradicional com filas, [[Exchanges e bindings|exchanges]], roteamento e protocolos como AMQP;
 - **ActiveMQ**: broker com suporte a padrões e protocolos de mensageria;
 - **Amazon SQS**: fila gerenciada, acessada por API, com pouca administração de servidores;
 - **Redis**: pode atuar em filas simples, Streams e pub/sub, mas seu foco e suas garantias dependem do recurso usado;

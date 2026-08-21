@@ -58,8 +58,8 @@ produtor -> exchange -> binding -> fila -> consumidor
 ```
 
 - o produtor publica a mensagem;
-- a exchange recebe a mensagem;
-- o binding define a regra de roteamento;
+- a [[Exchanges e bindings|exchange]] recebe a mensagem;
+- o [[Exchanges e bindings|binding]] define a regra de roteamento;
 - a fila armazena a mensagem;
 - o consumidor recebe e confirma o processamento.
 
