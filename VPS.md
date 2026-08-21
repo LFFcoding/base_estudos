@@ -99,7 +99,7 @@ O EC2 é equivalente na ideia, mas não é uma cópia exata de toda VPS. A escol
 - manter o sistema operacional, Docker e demais ferramentas atualizados, corrigindo vulnerabilidades;
 - configurar um firewall para liberar somente as portas necessárias, normalmente SSH, HTTP e HTTPS;
 - não deixar o [[PostgreSQL]] exposto diretamente à internet, permitindo acesso apenas aos serviços que precisam dele;
-- usar HTTPS e certificados válidos no Caddy, protegendo dados entre o usuário e o servidor;
+- usar HTTPS e certificados [[TLS]] válidos no Caddy, protegendo dados entre o usuário e o servidor;
 - guardar senhas, tokens e chaves em variáveis de ambiente ou gerenciadores de segredos, nunca no repositório do [[GitHub]];
 - fazer backups automáticos e testar a restauração, porque um backup que nunca foi testado pode não funcionar;
 - manter cópias dos backups fora da VPS, protegendo os dados contra falha ou perda do servidor;

@@ -19,7 +19,7 @@ O Caddy pode:
 - servir arquivos de um site;
 - encaminhar requisições para um backend;
 - terminar conexões HTTPS;
-- obter e renovar certificados TLS automaticamente;
+- obter e renovar certificados [[TLS]] automaticamente;
 - redirecionar HTTP para HTTPS;
 - aplicar regras por domínio e caminho;
 - comprimir respostas;
@@ -90,7 +90,7 @@ api.exemplo.com {
 
 ## HTTPS automático
 
-Quando um domínio real aponta para o servidor e as portas `80` e `443` estão acessíveis, o Caddy pode solicitar e renovar certificados TLS automaticamente.
+Quando um domínio real aponta para o servidor e as portas `80` e `443` estão acessíveis, o Caddy pode solicitar e renovar certificados [[TLS]] automaticamente.
 
 HTTPS protege os dados no caminho entre o navegador e o servidor. Para isso funcionar, é necessário:
 

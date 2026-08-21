@@ -90,7 +90,7 @@ Exemplos importantes:
 - `Authorization`: envia dados usados para autenticação, como um token;
 - `Cookie`: envia cookies associados ao domínio;
 - `User-Agent`: identifica o programa ou navegador que fez a requisição;
-- `Cache-Control`: orienta regras de armazenamento temporário (*cache*);
+- `Cache-Control`: orienta regras de [[Cache|armazenamento temporário]] (*cache*);
 - `X-Request-ID`: pode carregar um identificador para acompanhar o pedido nos logs.
 
 Um header não deve ser aceito cegamente como prova de identidade ou permissão. O [[Backend]] precisa validar a autenticação e a autorização no servidor.
@@ -192,7 +192,7 @@ Uma requisição pode carregar dados pessoais, credenciais e comandos importante
 
 ### Proteja os dados no caminho
 
-Use HTTPS, que combina HTTP com TLS (*Transport Layer Security*), para criptografar os dados entre o cliente e o servidor. Sem HTTPS, alguém na rede pode tentar observar ou alterar a comunicação.
+Use HTTPS, que combina HTTP com [[TLS]] (*Transport Layer Security*), para criptografar os dados entre o cliente e o servidor. Sem HTTPS, alguém na rede pode tentar observar ou alterar a comunicação.
 
 ### Valide tudo no servidor
 

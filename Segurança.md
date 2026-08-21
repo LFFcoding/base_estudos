@@ -77,7 +77,7 @@ Um `.env` local pode ajudar no desenvolvimento, mas não deve ser enviado ao rep
 
 ### Proteger a comunicação
 
-Use HTTPS, que combina HTTP com TLS (*Transport Layer Security*), para impedir que terceiros leiam ou alterem os dados durante o caminho.
+Use HTTPS, que combina HTTP com [[TLS]] (*Transport Layer Security*), para impedir que terceiros leiam ou alterem os dados durante o caminho.
 
 ```http
 Authorization: Bearer <access-token>
