@@ -124,7 +124,7 @@ Cookies são pequenos valores que o navegador guarda e envia novamente em requis
 Apesar de aparecerem como a parte `Cookie` de um header, eles merecem atenção especial porque podem carregar informações de sessão. Cookies de autenticação devem usar, quando possível:
 
 - `Secure`, para serem enviados apenas por HTTPS;
-- `HttpOnly`, para impedir acesso por JavaScript no navegador;
+- `HttpOnly`, para impedir acesso por [[JavaScript]] no navegador;
 - `SameSite`, para reduzir o risco de ataques CSRF (*Cross-Site Request Forgery*).
 
 ## Exemplo completo

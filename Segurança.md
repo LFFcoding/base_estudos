@@ -35,7 +35,7 @@ Uma API deve repetir a verificação no servidor. Esconder um botão no [[Fronte
 
 - **Senha fraca ou reutilizada**: facilita o acesso indevido a várias contas.
 - **Injeção (*injection*)**: dados enviados pelo usuário são interpretados como comandos, como em SQL Injection.
-- **XSS (*Cross-Site Scripting*)**: um invasor consegue executar JavaScript malicioso no navegador de outra pessoa.
+- **XSS (*Cross-Site Scripting*)**: um invasor consegue executar [[JavaScript]] malicioso no navegador de outra pessoa.
 - **CSRF (*Cross-Site Request Forgery*)**: uma página maliciosa tenta fazer uma ação usando a sessão de outra pessoa.
 - **Vazamento de segredo**: uma senha, chave privada ou token aparece no código, no repositório ou nos logs.
 - **Controle de acesso incorreto**: a aplicação permite acessar ou alterar um recurso de outra pessoa.

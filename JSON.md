@@ -1,6 +1,6 @@
 # JSON
 
-**JSON** significa *JavaScript Object Notation*. É um formato de texto usado para representar e trocar dados entre programas.
+**JSON** significa *[[JavaScript]] Object Notation*. É um formato de texto usado para representar e trocar dados entre programas.
 
 Apesar do nome, JSON não é uma linguagem de programação. Ele é como um formulário padronizado: um sistema preenche os campos, envia o texto e outro sistema consegue entender os mesmos dados.
 

@@ -2,7 +2,7 @@
 
 **Frontend** é a parte de uma aplicação que o usuário vê e utiliza. Ele também é chamado de camada do cliente (*client-side*), porque normalmente é executado no navegador ou em outro dispositivo do usuário.
 
-O [[HTML]] organiza o conteúdo da página, o [[CSS]] define sua aparência e o JavaScript adiciona comportamentos. Ferramentas como [[React]] e [[Next.js]] ajudam a construir e organizar essa interface.
+O [[HTML]] organiza o conteúdo da página, o [[CSS]] define sua aparência e o [[JavaScript]] adiciona comportamentos. Ferramentas como [[React]] e [[Next.js]] ajudam a construir e organizar essa interface.
 
 Uma analogia é pensar em um restaurante:
 

@@ -35,7 +35,7 @@ Neste projeto, o backend será desenvolvido com:
 - [[Quarkus]], o [[Framework]] que ajuda a construir a aplicação;
 - [[Maven]], a ferramenta que organiza o projeto e suas dependências (*dependencies*).
 
-Existem outras opções de backend, como o [[NestJS]], que usa [[Node.js]] e TypeScript. A escolha depende da linguagem, da equipe, dos requisitos e das bibliotecas que o projeto precisa.
+Existem outras opções de backend, como o [[NestJS]], que usa [[Node.js]] e [[TypeScript]]. A escolha depende da linguagem, da equipe, dos requisitos e das bibliotecas que o projeto precisa.
 
 O backend também se conecta ao [[PostgreSQL]] para guardar e consultar informações.
 

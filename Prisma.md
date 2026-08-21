@@ -1,6 +1,6 @@
 # Prisma
 
-**Prisma** é um ORM (*Object-Relational Mapper*) e toolkit de acesso a bancos de dados para [[Node.js]] e TypeScript. Ele ajuda a definir o modelo dos dados, gerar um cliente de consultas com tipos e controlar alterações no banco.
+**Prisma** é um ORM (*Object-Relational Mapper*) e toolkit de acesso a bancos de dados para [[Node.js]] e [[TypeScript]]. Ele ajuda a definir o modelo dos dados, gerar um cliente de consultas com tipos e controlar alterações no banco.
 
 Uma analogia: o banco de dados é uma biblioteca, e o Prisma é um bibliotecário que conhece a organização das estantes. Em vez de cada parte do programa escrever consultas sem padrão, o bibliotecário oferece uma forma organizada de encontrar, criar e alterar registros.
 
@@ -269,7 +269,7 @@ Ele é uma ferramenta de acesso e evolução do banco, não um substituto para a
 
 ## Prisma e Quarkus
 
-A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] e [[Maven]]. Prisma pertence principalmente ao ecossistema [[Node.js]] e TypeScript, portanto não é a ferramenta padrão dessa stack.
+A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] e [[Maven]]. Prisma pertence principalmente ao ecossistema [[Node.js]] e [[TypeScript]], portanto não é a ferramenta padrão dessa stack.
 
 No ecossistema Java, o acesso ao banco costuma usar outras soluções, como JDBC, JPA ou Hibernate. A ideia geral de mapear modelos para dados pode ser parecida, mas as APIs e os fluxos são diferentes.
 
@@ -278,7 +278,7 @@ No ecossistema Java, o acesso ao banco costuma usar outras soluções, como JDBC
 - mantenha `DATABASE_URL` e credenciais fora do código e do Git;
 - use um usuário do banco com apenas as permissões necessárias;
 - valide entradas no [[Backend]] ou em DTOs antes de consultar o banco;
-- não confunda tipos do TypeScript com validação de dados recebidos em tempo de execução;
+- não confunda tipos do [[TypeScript]] com validação de dados recebidos em tempo de execução;
 - use `select` para evitar retornar campos sensíveis ou desnecessários;
 - evite expor mensagens internas e consultas nos erros da API;
 - prefira os métodos tipados do Prisma e tenha cuidado ao usar SQL bruto;
@@ -299,7 +299,7 @@ No ecossistema Java, o acesso ao banco costuma usar outras soluções, como JDBC
 - migrations integradas para bancos relacionais;
 - cliente com API consistente;
 - Prisma Studio para inspeção local;
-- boa integração com aplicações [[Node.js]], TypeScript e [[NestJS]].
+- boa integração com aplicações [[Node.js]], [[TypeScript]] e [[NestJS]].
 
 ### Limitações
 
@@ -312,7 +312,7 @@ No ecossistema Java, o acesso ao banco costuma usar outras soluções, como JDBC
 
 ## Resumo
 
-**Prisma é um toolkit de ORM para [[Node.js]] e TypeScript que usa um schema para gerar um cliente tipado, controlar migrations e facilitar a inspeção dos dados. Ele simplifica o acesso ao banco, mas não substitui o conhecimento de [[PostgreSQL]], [[MongoDB]], SQL, modelagem e segurança.**
+**Prisma é um toolkit de ORM para [[Node.js]] e [[TypeScript]] que usa um schema para gerar um cliente tipado, controlar migrations e facilitar a inspeção dos dados. Ele simplifica o acesso ao banco, mas não substitui o conhecimento de [[PostgreSQL]], [[MongoDB]], SQL, modelagem e segurança.**
 
 ## Referências oficiais
 

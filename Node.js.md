@@ -1,20 +1,20 @@
 # Node.js
 
-**Node.js** é um ambiente de execução (*runtime*) que permite executar JavaScript fora do navegador. Ele é usado para criar APIs, servidores, ferramentas de terminal, scripts e aplicações que precisam conversar com a rede ou com o sistema operacional.
+**Node.js** é um ambiente de execução (*runtime*) que permite executar [[JavaScript]] fora do navegador. Ele é usado para criar APIs, servidores, ferramentas de terminal, scripts e aplicações que precisam conversar com a rede ou com o sistema operacional.
 
-Uma analogia simples: JavaScript é a linguagem; o Node.js é o motor que permite executar essa linguagem em um servidor ou no terminal. O navegador também possui um motor para JavaScript, mas oferece APIs diferentes, como `document` e `window`. O Node.js oferece APIs para arquivos, rede, processos, streams e sistema operacional.
+Uma analogia simples: [[JavaScript]] é a linguagem; o Node.js é o motor que permite executar essa linguagem em um servidor ou no terminal. O navegador também possui um motor para JavaScript, mas oferece APIs diferentes, como `document` e `window`. O Node.js oferece APIs para arquivos, rede, processos, streams e sistema operacional.
 
 A documentação oficial descreve Node.js como um runtime JavaScript construído sobre o motor V8. Ele é multiplataforma, de código aberto e possui APIs para HTTP, arquivos, módulos, criptografia, testes e outras tarefas de servidor.
 
-## Node.js não é JavaScript
+## Node.js não é [[JavaScript]]
 
 Eles estão relacionados, mas não são a mesma coisa:
 
-- **JavaScript:** linguagem de programação;
-- **V8:** motor que interpreta e executa JavaScript;
-- **Node.js:** runtime que usa V8 e acrescenta APIs para executar JavaScript fora do navegador;
+- **[[JavaScript]]:** linguagem de programação;
+- **V8:** motor que interpreta e executa [[JavaScript]];
+- **Node.js:** runtime que usa V8 e acrescenta APIs para executar [[JavaScript]] fora do navegador;
 - **NestJS:** framework que organiza uma aplicação executada no [[Node.js]];
-- **[[Prisma]]:** toolkit usado por aplicações Node.js e TypeScript para acessar bancos.
+- **[[Prisma]]:** toolkit usado por aplicações Node.js e [[TypeScript]] para acessar bancos.
 
 Também não é um banco de dados, servidor físico ou hospedagem. Uma aplicação Node.js ainda precisa ser executada em uma máquina, contêiner ou serviço de nuvem.
 
@@ -176,11 +176,11 @@ O arquivo `package-lock.json` registra versões concretas das dependências. Em 
 
 Não versionar `node_modules`: a pasta contém dependências instaladas e pode ser recriada pelo npm a partir do `package.json` e do lockfile.
 
-## JavaScript e TypeScript
+## [[JavaScript]] e [[TypeScript]]
 
-Node.js executa JavaScript. Muitos projetos usam TypeScript para adicionar tipos e detectar parte dos erros antes da execução.
+Node.js executa [[JavaScript]]. Muitos projetos usam [[TypeScript]] para adicionar tipos e detectar parte dos erros antes da execução.
 
-TypeScript normalmente precisa ser transformado ou executado por uma ferramenta compatível antes de chegar ao runtime. Frameworks como [[NestJS]] costumam organizar esse processo.
+[[TypeScript]] normalmente precisa ser transformado ou executado por uma ferramenta compatível antes de chegar ao runtime. Frameworks como [[NestJS]] costumam organizar esse processo.
 
 Tipos ajudam, mas não validam automaticamente os dados recebidos pela rede. Uma requisição ainda precisa de validação em tempo de execução, autenticação e autorização.
 
@@ -207,13 +207,13 @@ O Node.js não substitui o banco de dados. Ele executa o código que aplica regr
 
 ## Node.js e a stack principal
 
-A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] e [[Maven]] no backend. Node.js e [[NestJS]] são alternativas baseadas em JavaScript ou TypeScript.
+A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] e [[Maven]] no backend. Node.js e [[NestJS]] são alternativas baseadas em [[JavaScript]] ou [[TypeScript]].
 
 | Característica | Node.js | Java com Quarkus |
 | --- | --- | --- |
-| O que é | runtime de JavaScript | linguagem e runtime sobre a JVM, com framework Quarkus |
-| Linguagem comum | JavaScript/TypeScript | [[Java|Java 17]] |
-| Ecossistema | npm e pacotes JavaScript | [[Maven]] e bibliotecas Java |
+| O que é | runtime de [[JavaScript]] | linguagem e runtime sobre a JVM, com framework Quarkus |
+| Linguagem comum | [[JavaScript]]/[[TypeScript]] | [[Java|Java 17]] |
+| Ecossistema | npm e pacotes [[JavaScript]] | [[Maven]] e bibliotecas Java |
 | Modelo comum | assíncrono e orientado a eventos | threads, I/O e recursos da JVM, conforme a aplicação |
 | Uso | APIs, ferramentas e serviços | APIs e serviços backend |
 
@@ -271,7 +271,7 @@ Fixe a versão no ambiente local, no Docker e no CI. A [página oficial de downl
 
 ## Resumo
 
-**Node.js é um runtime que executa JavaScript fora do navegador. Seu modelo assíncrono e orientado a eventos é adequado para APIs, servidores e ferramentas, mas a aplicação ainda precisa de framework, banco, segurança, testes e observabilidade.**
+**Node.js é um runtime que executa [[JavaScript]] fora do navegador. Seu modelo assíncrono e orientado a eventos é adequado para APIs, servidores e ferramentas, mas a aplicação ainda precisa de framework, banco, segurança, testes e observabilidade.**
 
 ## Referências oficiais
 

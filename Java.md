@@ -71,12 +71,12 @@ No [[Backend]], Java pode ser usado para:
 
 O Java puro fornece a linguagem e sua plataforma. O [[Quarkus]] é um [[Framework]] que oferece uma estrutura pronta para criar aplicações backend. O [[Maven]] organiza a compilação, as dependências e outras tarefas do projeto.
 
-## Java não é JavaScript
+## Java não é [[JavaScript]]
 
-Apesar dos nomes parecidos, Java e JavaScript são linguagens diferentes:
+Apesar dos nomes parecidos, [[Java]] e [[JavaScript]] são linguagens diferentes:
 
 - Java é muito usado em backend, aplicações corporativas, serviços e sistemas Android antigos;
-- JavaScript é muito usado no navegador e também pode ser usado no servidor;
+- [[JavaScript]] é muito usado no navegador e também pode ser usado no servidor;
 - os dois possuem sintaxes e ferramentas próprias.
 
 Aprender uma não significa automaticamente saber a outra.

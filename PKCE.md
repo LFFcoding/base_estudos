@@ -95,7 +95,7 @@ code_verifier=segredo-temporario-original
 
 O servidor verifica se o `code_verifier` produz exatamente o `code_challenge` enviado no primeiro pedido. O `redirect_uri` também deve ser igual ao usado no início do fluxo.
 
-## Exemplo conceitual em JavaScript
+## Exemplo conceitual em [[JavaScript]]
 
 Uma aplicação pode seguir esta ideia usando recursos criptográficos do navegador:
 

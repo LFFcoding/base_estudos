@@ -137,7 +137,7 @@ Se a cor ou o espaçamento mudar, basta atualizar a variável. Isso facilita a m
 
 ## CSS no React e no Next.js
 
-O [[React]] e o [[Next.js]] podem usar CSS global, CSS Modules, bibliotecas de componentes ou soluções baseadas em JavaScript.
+O [[React]] e o [[Next.js]] podem usar CSS global, CSS Modules, bibliotecas de componentes ou soluções baseadas em [[JavaScript]].
 
 Com CSS Modules, por exemplo, uma classe pode ficar restrita ao componente:
 

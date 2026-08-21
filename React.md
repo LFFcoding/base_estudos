@@ -1,6 +1,6 @@
 # React
 
-**React** é uma [[Biblioteca]] JavaScript usada para criar interfaces de usuário (*user interfaces* ou UI).
+**React** é uma [[Biblioteca]] [[JavaScript]] usada para criar interfaces de usuário (*user interfaces* ou UI).
 
 Ele permite dividir uma tela em componentes reutilizáveis, como botões, menus, formulários e cartões. Nesta [[Stack]], o React será usado no [[Frontend]], junto com o [[Next.js]].
 
@@ -56,7 +56,7 @@ Nesse exemplo:
 
 ## JSX
 
-React costuma usar JSX, uma sintaxe que permite escrever algo parecido com [[HTML]] dentro do código JavaScript ou TypeScript. A aparência desses elementos pode ser definida com [[CSS]].
+React costuma usar JSX, uma sintaxe que permite escrever algo parecido com [[HTML]] dentro do código [[JavaScript]] ou [[TypeScript]]. A aparência desses elementos pode ser definida com [[CSS]].
 
 ```tsx
 const mensagem = <p>Estudando React</p>;
@@ -75,7 +75,7 @@ async function buscarUsuarios() {
 }
 ```
 
-O exemplo chama uma API e transforma a resposta em dados JavaScript. Em uma aplicação real, também é necessário tratar carregamento, erros, autenticação e validação.
+O exemplo chama uma API e transforma a resposta em dados [[JavaScript]]. Em uma aplicação real, também é necessário tratar carregamento, erros, autenticação e validação.
 
 ## React é uma biblioteca, não um framework
 
@@ -99,6 +99,6 @@ O [[Next.js]] é um [[Framework]] construído sobre React. Ele acrescenta recurs
 
 ## Resumo
 
-> **React é uma biblioteca JavaScript que ajuda a criar interfaces usando componentes reutilizáveis e estados controlados.**
+> **React é uma biblioteca [[JavaScript]] que ajuda a criar interfaces usando componentes reutilizáveis e estados controlados.**
 
 Ele cuida da interface; outras ferramentas, como Next.js, complementam a estrutura da aplicação web.

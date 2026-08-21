@@ -1,6 +1,6 @@
 # NestJS
 
-**NestJS** é um framework para criar aplicações de backend com [[Node.js]]. Ele é construído com TypeScript, também permite JavaScript e oferece uma estrutura organizada para criar APIs, serviços web e aplicações distribuídas.
+**NestJS** é um framework para criar aplicações de backend com [[Node.js]]. Ele é construído com [[TypeScript]], também permite [[JavaScript]] e oferece uma estrutura organizada para criar APIs, serviços web e aplicações distribuídas.
 
 Uma analogia simples: [[Node.js]] é o motor; bibliotecas como Express ou Fastify fornecem peças para o carro; NestJS é uma planta de montagem que organiza essas peças em módulos, controllers e services.
 
@@ -12,7 +12,7 @@ Eles estão relacionados, mas não são a mesma coisa:
 
 - **[[Node.js]]:** ambiente que executa JavaScript fora do navegador;
 - **NestJS:** framework que organiza uma aplicação executada no [[Node.js]];
-- **TypeScript:** linguagem usada frequentemente para escrever o código NestJS, adicionando tipos ao JavaScript;
+- **[[TypeScript]]:** linguagem usada frequentemente para escrever o código NestJS, adicionando tipos ao [[JavaScript]];
 - **Express ou Fastify:** plataformas HTTP que podem ficar por baixo do NestJS.
 
 Também não é um framework de [[Frontend]]. O NestJS normalmente fica no [[Backend]], enquanto [[Next.js]] e [[React]] podem participar da construção da interface ou de aplicações web no lado do cliente.
@@ -212,7 +212,7 @@ O NestJS não é um banco de dados. Ele pode se conectar a soluções diferentes
 
 - [[PostgreSQL]] para dados relacionais e transações;
 - [[MongoDB]] para documentos;
-- [[Prisma]] como uma opção de ORM e cliente tipado no ecossistema [[Node.js]] e TypeScript;
+- [[Prisma]] como uma opção de ORM e cliente tipado no ecossistema [[Node.js]] e [[TypeScript]];
 - Redis para cache, sessões ou outros usos, conforme a arquitetura;
 - outros bancos conforme o driver e a integração escolhidos.
 
@@ -232,22 +232,22 @@ Isso não significa que toda aplicação precise ser dividida em microservices. 
 
 ## NestJS e o backend deste projeto
 
-A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] para o backend. NestJS é uma alternativa baseada em [[Node.js]] e TypeScript; ele não substitui automaticamente o Quarkus.
+A stack principal deste repositório usa [[Java|Java 17]] com [[Quarkus]] para o backend. NestJS é uma alternativa baseada em [[Node.js]] e [[TypeScript]]; ele não substitui automaticamente o Quarkus.
 
 | Característica | NestJS | Quarkus |
 | --- | --- | --- |
-| Linguagem principal | TypeScript/JavaScript | [[Java|Java 17]] |
+| Linguagem principal | [[TypeScript]]/[[JavaScript]] | [[Java|Java 17]] |
 | Ambiente | [[Node.js]] | JVM e modos de execução do Quarkus |
 | Organização | módulos, controllers e providers | recursos, serviços, injeção e extensões |
 | Uso comum | APIs e serviços em [[Node.js]] | APIs e serviços Java |
-| Gerenciamento | npm ou outro gerenciador JavaScript | [[Maven]] |
+| Gerenciamento | npm ou outro gerenciador [[JavaScript]] | [[Maven]] |
 
 As ideias de controller, service, validação, autenticação e testes aparecem nos dois ecossistemas, mas os detalhes, bibliotecas e ferramentas são diferentes.
 
 ## Vantagens
 
 - estrutura clara para projetos [[Node.js]] grandes;
-- suporte forte a TypeScript;
+- suporte forte a [[TypeScript]];
 - injeção de dependências integrada;
 - CLI para criar componentes;
 - recursos para REST, GraphQL, WebSockets e mensageria;
@@ -263,7 +263,7 @@ As ideias de controller, service, validação, autenticação e testes aparecem 
 - adicionar microservices, filas e integrações aumenta a complexidade operacional;
 - a aplicação ainda precisa tratar segurança, observabilidade, performance e custos.
 
-Escolha NestJS quando a equipe quiser uma estrutura organizada para [[Node.js]] e TypeScript. Para um serviço pequeno, Express ou Fastify diretamente podem ser suficientes; para um serviço Java alinhado à stack deste projeto, [[Quarkus]] continua sendo a opção estudada.
+Escolha NestJS quando a equipe quiser uma estrutura organizada para [[Node.js]] e [[TypeScript]]. Para um serviço pequeno, Express ou Fastify diretamente podem ser suficientes; para um serviço Java alinhado à stack deste projeto, [[Quarkus]] continua sendo a opção estudada.
 
 ## Boas práticas
 
@@ -288,4 +288,4 @@ Escolha NestJS quando a equipe quiser uma estrutura organizada para [[Node.js]] 
 - [Modules](https://docs.nestjs.com/modules);
 - [Testing](https://docs.nestjs.com/fundamentals/testing).
 
-**NestJS é um framework de backend para [[Node.js]] que organiza aplicações TypeScript em módulos, controllers e providers, oferecendo injeção de dependências, validação, segurança e integrações para construir serviços mais estruturados.**
+**NestJS é um framework de backend para [[Node.js]] que organiza aplicações [[TypeScript]] em módulos, controllers e providers, oferecendo injeção de dependências, validação, segurança e integrações para construir serviços mais estruturados.**

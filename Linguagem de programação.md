@@ -62,7 +62,7 @@ Muitas linguagens usam uma combinação dessas ideias. O importante é que o có
 Cada linguagem costuma ter pontos fortes e ferramentas próprias:
 
 - [[Java]]: muito usado em backend, sistemas corporativos e aplicações de grande porte;
-- JavaScript: muito usado em páginas web e também em aplicações no servidor;
+- [[JavaScript]]: muito usado em páginas web e também em aplicações no servidor;
 - Python: conhecido pela sintaxe simples e usado em automação, dados e aplicações web;
 - SQL: linguagem especializada em consultar e alterar dados em bancos relacionais, como o [[PostgreSQL]].
 
@@ -99,4 +99,4 @@ Por exemplo, neste projeto:
 
 > **Linguagem de programação é uma forma de escrever instruções que transforma ideias humanas em ações executadas pelo computador.**
 
-Java, JavaScript e Python são linguagens diferentes, cada uma com suas regras, ferramentas e usos comuns.
+[[Java]], [[JavaScript]] e Python são linguagens diferentes, cada uma com suas regras, ferramentas e usos comuns.

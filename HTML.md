@@ -2,7 +2,7 @@
 
 **HTML** significa *HyperText Markup Language* (linguagem de marcação de hipertexto). Ele define a estrutura e o significado do conteúdo de uma página web.
 
-HTML é como o esqueleto e a planta de uma casa: informa quais partes existem, como elas se organizam e qual é a função de cada uma. O [[CSS]] cuida da aparência, enquanto o JavaScript cuida dos comportamentos e interações.
+HTML é como o esqueleto e a planta de uma casa: informa quais partes existem, como elas se organizam e qual é a função de cada uma. O [[CSS]] cuida da aparência, enquanto o [[JavaScript]] cuida dos comportamentos e interações.
 
 ## HTML não é uma linguagem de programação
 
@@ -110,7 +110,7 @@ O HTML é a base visual do [[Frontend]]. O [[React]] pode criar elementos HTML u
 
 JSX parece HTML, mas é transformado pelo React. Por isso, pequenas diferenças existem, como usar `className` em vez de `class` em componentes React.
 
-Uma página também pode carregar dados do backend por uma [[Requisição]] e depois atualizar partes do HTML com JavaScript.
+Uma página também pode carregar dados do backend por uma [[Requisição]] e depois atualizar partes do HTML com [[JavaScript]].
 
 ## Boas práticas
 
@@ -125,4 +125,4 @@ Uma página também pode carregar dados do backend por uma [[Requisição]] e de
 - escape ou sanitize conteúdo dinâmico para reduzir riscos de XSS;
 - não coloque senhas, tokens ou regras de autorização no HTML enviado ao navegador.
 
-HTML define a estrutura e o significado da página. Uma interface completa normalmente combina HTML, [[CSS]] e JavaScript, com ferramentas como [[React]] e [[Next.js]].
+HTML define a estrutura e o significado da página. Uma interface completa normalmente combina HTML, [[CSS]] e [[JavaScript]], com ferramentas como [[React]] e [[Next.js]].

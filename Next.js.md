@@ -4,6 +4,8 @@
 
 Nesta [[Stack]], o Next.js será usado com React para construir a parte visual da aplicação. Ele pode conversar com o [[Backend]] por meio de uma [[API]].
 
+Projetos Next.js podem usar [[TypeScript]] para tipar componentes, propriedades, respostas de API e configurações, ajudando a encontrar erros durante o desenvolvimento.
+
 Uma analogia é construir uma casa usando peças de LEGO:
 
 - React fornece as peças da interface;
@@ -67,7 +69,7 @@ export default function Contador() {
 
 Essa diretiva informa que o componente precisa ser executado no navegador porque usa estado e evento de clique.
 
-Quando não existe necessidade de interação no navegador, manter o componente no servidor pode reduzir o JavaScript enviado ao cliente.
+Quando não existe necessidade de interação no navegador, manter o componente no servidor pode reduzir o [[JavaScript]] enviado ao cliente.
 
 ## Buscando dados
 
