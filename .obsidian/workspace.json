@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prisma.md",
+                "file": "Linting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prisma"
+              "title": "Linting"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "Prisma.md",
+    "Linting.md",
     "JavaScript.md",
     "Exchanges e bindings.md",
     "JWT.md",
@@ -212,8 +214,6 @@
     "OIDC.md",
     "CI/CD.md",
     "CI",
-    "Stack.md",
-    "DevOps.md",
     "Visão geral",
     "Arquitetura",
     "Fundamentos"
