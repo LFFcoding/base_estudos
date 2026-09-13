@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity Engine.md",
+                "file": "Catálogo GoF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unity Engine"
+              "title": "Catálogo GoF"
             }
           }
         ]
@@ -187,6 +187,11 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "Método construtor.md",
+    "Factory Pattern.md",
+    "Catálogo GoF.md",
+    "Design Pattern.md",
+    "Unity Engine.md",
     "Static.md",
     "Final.md",
     "Protected.md",
@@ -199,7 +204,6 @@
     "Polimorfismo.md",
     "Facade Pattern.md",
     "Strategy Pattern.md",
-    "Factory Pattern.md",
     "Perlin Noise.md",
     "Godot Engine.md",
     "Unreal Engine.md",
@@ -207,12 +211,8 @@
     "C#.md",
     "Programação procedural.md",
     "Mapa procedural.md",
-    "Unity Engine.md",
     "Chamada estática vs injeção CDI.md",
     "Apache CXF.md",
-    "RAG.md",
-    "GitHub.md",
-    "JWT.md",
     "CI",
     "Visão geral",
     "Arquitetura",

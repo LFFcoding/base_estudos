@@ -2,6 +2,8 @@
 
 **Design patterns** significa **padrões de projeto**. São ideias reutilizáveis para resolver problemas que aparecem com frequência no desenvolvimento de software.
 
+O catálogo clássico com 23 padrões está organizado em [[Catálogo GoF]].
+
 Um padrão não é um trecho de código pronto para copiar. Ele é mais parecido com uma receita ou um molde: explica quais partes participam da solução, como elas se relacionam e quais são os benefícios e custos daquela escolha.
 
 Por exemplo, em vez de cada equipe inventar uma maneira diferente de trocar o comportamento de um objeto, ela pode usar o padrão [[Strategy Pattern]]. A ideia é separar cada comportamento em uma estratégia substituível.

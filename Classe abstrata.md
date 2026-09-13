@@ -116,7 +116,7 @@ public String descrever() {
 
 Uma subclasse pode usar o método como está ou sobrescrevê-lo quando precisar de um comportamento diferente. Use `@Override` para pedir ao compilador que confirme a sobrescrita.
 
-## Uma classe abstrata pode ter construtor?
+## Uma classe abstrata pode ter [[Método construtor]]?
 
 Sim. Embora não possa ser criada diretamente, a classe abstrata participa da criação de suas subclasses. O construtor da classe-base é executado por meio de `super`:
 
