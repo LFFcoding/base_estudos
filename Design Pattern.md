@@ -1,10 +1,10 @@
-# O que é Design Pattern?
+# O que são Design Patterns?
 
-**Design pattern** significa **padrão de projeto**. É uma solução conhecida para um problema que aparece com frequência no desenvolvimento de software.
+**Design patterns** significa **padrões de projeto**. São ideias reutilizáveis para resolver problemas que aparecem com frequência no desenvolvimento de software.
 
 Um padrão não é um trecho de código pronto para copiar. Ele é mais parecido com uma receita ou um molde: explica quais partes participam da solução, como elas se relacionam e quais são os benefícios e custos daquela escolha.
 
-Por exemplo, em vez de cada equipe inventar uma maneira diferente de trocar o comportamento de um objeto, ela pode usar o padrão **Strategy**. A ideia é separar cada comportamento em uma estratégia substituível.
+Por exemplo, em vez de cada equipe inventar uma maneira diferente de trocar o comportamento de um objeto, ela pode usar o padrão [[Strategy Pattern]]. A ideia é separar cada comportamento em uma estratégia substituível.
 
 ## Por que usar padrões?
 
@@ -16,7 +16,7 @@ Padrões ajudam a:
 - tornar mudanças futuras mais previsíveis;
 - reaproveitar ideias que já foram testadas em muitos projetos.
 
-Quando alguém diz “vamos usar uma Factory” ou “essa parte pode ser uma Strategy”, está usando um vocabulário curto para descrever uma estrutura de solução.
+Quando alguém diz “vamos usar uma [[Factory Pattern|Factory]]” ou “essa parte pode ser uma [[Strategy Pattern|Strategy]]”, está usando um vocabulário curto para descrever uma estrutura de solução.
 
 ## Um padrão não resolve tudo
 
@@ -48,14 +48,14 @@ Preocupam-se com a forma como classes e objetos são combinados.
 
 - **Adapter:** faz duas interfaces incompatíveis conversarem.
 - **Decorator:** acrescenta comportamento sem alterar a classe original.
-- **Facade:** oferece uma entrada simples para um conjunto complicado de classes.
+- [[Facade Pattern]]: oferece uma entrada simples para um conjunto complicado de classes.
 - **Proxy:** controla o acesso a outro objeto.
 
 ### Padrões comportamentais (*behavioral*)
 
 Preocupam-se com a comunicação e a distribuição de responsabilidades.
 
-- **Strategy:** permite trocar um algoritmo ou comportamento.
+- [[Strategy Pattern]]: permite trocar um algoritmo ou comportamento.
 - **Observer:** avisa interessados quando algo muda.
 - **Command:** transforma uma ação em um objeto.
 - **State:** altera o comportamento conforme o estado atual.
@@ -63,11 +63,13 @@ Preocupam-se com a comunicação e a distribuição de responsabilidades.
 
 Essas categorias são uma forma de organizar o estudo. Um sistema real pode combinar padrões de grupos diferentes.
 
-## Exemplo: Strategy
+Os padrões não dependem de uma única linguagem. O mesmo [[Strategy Pattern]] pode ser escrito em [[Java]], [[C#]] ou [[C++]], embora a sintaxe e as bibliotecas mudem. O mais importante é entender as responsabilidades e as relações entre as partes.
+
+## Exemplo: Strategy Pattern
 
 Imagine um sistema que calcula descontos. A regra pode mudar para clientes comuns, clientes premium ou campanhas especiais. Colocar todos os `if`s em um método enorme dificulta a manutenção.
 
-Com Strategy, cada regra implementa a mesma interface:
+Com [[Strategy Pattern]], cada regra implementa a mesma interface:
 
 ```java
 public interface RegraDesconto {
@@ -115,7 +117,7 @@ Em um [[Backend]], alguns padrões aparecem com bastante frequência:
 
 ### Dependency Injection
 
-Na **injeção de dependência (*Dependency Injection*)**, uma classe recebe as dependências de que precisa, em vez de criá-las diretamente.
+Na **injeção de dependência (*Dependency Injection*)**, uma classe recebe as dependências de que precisa, em vez de criá-las diretamente. DI é uma técnica de organização e composição do sistema, não um dos padrões GoF, mas combina muito bem com vários deles.
 
 ```java
 public class PedidoService {
@@ -149,6 +151,47 @@ O **Adapter** coloca uma camada entre o sistema e uma biblioteca ou serviço ext
 
 O [[Outbox Pattern]] é um padrão arquitetural usado quando a aplicação precisa salvar uma alteração no banco e publicar uma mensagem. Ele ajuda a evitar que apenas uma dessas operações seja concluída.
 
+## Padrões arquiteturais e de integração
+
+Os padrões GoF normalmente descrevem a colaboração entre classes e objetos. Padrões arquiteturais descrevem partes maiores do sistema:
+
+- **Layered Architecture:** separa o sistema em camadas, como apresentação, aplicação, domínio e infraestrutura;
+- **Hexagonal Architecture:** coloca as regras de negócio no centro e conecta o mundo externo por portas e adaptadores;
+- **Event-Driven Architecture:** usa eventos para comunicar mudanças entre componentes;
+- **CQRS (*Command Query Responsibility Segregation*):** separa operações que alteram dados das operações que apenas consultam;
+- **Repository:** esconde detalhes de acesso a dados, quando essa abstração realmente traz valor;
+- **Outbox Pattern:** registra uma mensagem junto da alteração de dados para publicá-la com mais segurança.
+
+Esses padrões podem ser combinados, mas cada camada adicional aumenta a quantidade de conceitos que a equipe precisa entender. Uma arquitetura bem organizada é aquela que protege as regras importantes sem esconder o fluxo principal.
+
+## Como escolher um padrão
+
+Antes de aplicar um padrão, faça perguntas simples:
+
+1. Qual problema está se repetindo ou ficando difícil de mudar?
+2. Qual parte do código tem responsabilidade demais?
+3. Qual mudança é provável no futuro?
+4. O padrão deixa o código mais fácil de testar e explicar?
+5. Qual complexidade, indireção ou custo de execução ele acrescenta?
+
+Um pequeno exemplo de decisão:
+
+```text
+Várias regras alternativas para o mesmo cálculo?
+    └─ Sim → avalie [[Strategy Pattern]].
+
+Um objeto complexo precisa ser montado em etapas?
+    └─ Sim → avalie Builder.
+
+Uma classe depende diretamente de uma implementação difícil de testar?
+    └─ Sim → avalie uma interface e injeção de dependência.
+
+Um sistema externo possui uma interface incompatível?
+    └─ Sim → avalie Adapter.
+```
+
+Isso é um guia de investigação, não uma regra automática. Às vezes, um método simples com um `if` é a melhor solução.
+
 ## Padrão, algoritmo e arquitetura são coisas diferentes
 
 - **Design pattern:** solução recorrente para organizar objetos e responsabilidades.
@@ -158,6 +201,20 @@ O [[Outbox Pattern]] é um padrão arquitetural usado quando a aplicação preci
 - **Arquitetura:** visão mais ampla das partes do sistema e de como elas se comunicam.
 
 Um padrão pode usar uma biblioteca, viver dentro de um framework e participar de uma arquitetura, mas esses conceitos não são sinônimos.
+
+## Anti-patterns
+
+Um **anti-pattern** é uma solução que parece resolver um problema, mas costuma causar dificuldades recorrentes.
+
+Exemplos:
+
+- **God Object:** uma classe conhece e faz quase tudo;
+- **Singleton global em excesso:** qualquer parte do sistema acessa um estado compartilhado escondido;
+- **Shotgun Surgery:** uma mudança pequena exige editar muitos arquivos espalhados;
+- **Copy and paste:** a mesma regra é duplicada em vários lugares;
+- **Overengineering:** a solução recebe abstrações e camadas que não resolvem uma necessidade real.
+
+Anti-pattern não significa que uma técnica nunca possa ser usada. O problema é adotá-la sem perceber os custos e repetir a estrutura mesmo quando ela deixa de ser adequada.
 
 ## Padrões e testes
 
@@ -181,6 +238,9 @@ Mas um padrão não garante que o código esteja correto. É necessário testar 
 7. **Não confunda Singleton com variável global.** Estado global pode criar dependências escondidas e dificultar testes; use-o somente quando a necessidade for clara.
 8. **Documente decisões importantes.** Explique qual problema motivou o padrão e quais alternativas foram consideradas.
 9. **Revise com o crescimento do sistema.** Um padrão adequado hoje pode deixar de ser adequado depois.
+10. **Prefira composição quando ela for suficiente.** Colocar objetos menores dentro de outro costuma ser mais flexível do que criar hierarquias profundas de herança.
+11. **Mantenha o fluxo visível.** Um padrão não deve obrigar a pessoa a navegar por muitas classes para entender uma operação simples.
+12. **Nomeie a intenção.** Explique o problema resolvido, não apenas o nome do padrão usado.
 
 ## Exemplo de decisão
 
@@ -192,7 +252,7 @@ Suponha que um serviço precise enviar notificações por e-mail e SMS:
 4. teste o serviço usando uma implementação falsa;
 5. adicione outra estratégia somente quando houver uma necessidade real.
 
-Essa solução usa ideias de Strategy e Dependency Injection sem exigir uma hierarquia complexa.
+Essa solução usa ideias de [[Strategy Pattern]] e Dependency Injection sem exigir uma hierarquia complexa.
 
 ## Resumo
 
