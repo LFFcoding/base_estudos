@@ -154,7 +154,7 @@ O protocolo e o broker podem oferecer diferentes garantias:
 
 - **at-most-once**: no máximo uma entrega, com possibilidade de perda;
 - **at-least-once**: pelo menos uma entrega, com possibilidade de duplicidade;
-- **FIFO**: preservação de ordem em um escopo definido;
+- **[[FIFO e LIFO|FIFO]]**: preservação de ordem em um escopo definido;
 - **ack**: confirmação de processamento;
 - **redelivery**: entrega novamente após falha ou timeout;
 - **retention**: tempo que a mensagem permanece armazenada.

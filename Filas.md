@@ -55,7 +55,7 @@ A tarefa secundária não precisa bloquear a resposta principal.
 
 Nem toda fila garante exatamente a mesma ordem ou uma única entrega.
 
-- **FIFO (*First In, First Out*)**: tenta processar na ordem de chegada;
+- **[[FIFO e LIFO|FIFO]] (*First In, First Out*)**: tenta processar na ordem de chegada;
 - **at-most-once**: uma mensagem pode ser perdida, mas não deve ser repetida;
 - **at-least-once**: uma mensagem não deveria ser perdida, mas pode ser entregue mais de uma vez;
 - **exactly-once**: promete uma única entrega em condições específicas, mas não elimina todos os problemas da operação completa.

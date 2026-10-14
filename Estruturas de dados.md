@@ -63,7 +63,7 @@ Ela pode facilitar inserções e remoções em posições cujo nó já foi encon
 
 ## Pilha
 
-Uma **pilha (*stack*)** segue a regra **LIFO (*Last In, First Out*)**: o último item colocado é o primeiro a sair.
+Uma **pilha (*stack*)** segue a regra [[FIFO e LIFO|LIFO]] (*Last In, First Out*): o último item colocado é o primeiro a sair.
 
 É como uma pilha de livros: para pegar um livro que está embaixo, primeiro é necessário retirar os que estão acima. Pilhas aparecem em histórico de desfazer, chamadas de funções e análise de expressões.
 
@@ -81,7 +81,7 @@ String telaAnterior = historico.pop(); // "detalhe do pedido"
 
 ## Fila e deque
 
-Uma **fila (*queue*)** segue a regra **FIFO (*First In, First Out*)**: o primeiro item que entra é o primeiro a sair. É como uma fila de atendimento.
+Uma **fila (*queue*)** segue a regra [[FIFO e LIFO|FIFO]] (*First In, First Out*): o primeiro item que entra é o primeiro a sair. É como uma fila de atendimento.
 
 ```java
 Queue<String> atendimentos = new ArrayDeque<>();

@@ -108,7 +108,7 @@ Um broker pode oferecer diferentes garantias:
 
 - **at-most-once**: pode perder mensagens, mas tenta não repetir;
 - **at-least-once**: tenta não perder mensagens, mas pode entregar a mesma mensagem mais de uma vez;
-- **FIFO**: preserva a ordem em determinadas condições;
+- **[[FIFO e LIFO|FIFO]]**: preserva a ordem em determinadas condições;
 - **deduplicação**: identifica mensagens repetidas em uma janela ou configuração específica.
 
 “Exatamente uma vez” é difícil em sistemas distribuídos. Mesmo que o broker faça uma entrega controlada, o consumidor pode cair depois de executar uma operação e antes de enviar o ack. Use [[Idempotência]], identificadores únicos e restrições no banco.
