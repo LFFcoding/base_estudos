@@ -1,4 +1,4 @@
-# Mega-brain
+# base-de-estudos
 
 Este repositório é um espaço de estudo sobre desenvolvimento de sistemas. Ele deve ser usado como um **vault** do Obsidian: uma pasta que guarda notas em Markdown e conecta os assuntos como um grande mapa mental.
 
@@ -119,7 +119,7 @@ O Git é um sistema de **version control** (*controle de versões*). Ele funcion
 Depois de clonar o repositório, entre na pasta pelo [[Terminal]]:
 
 ```bash
-cd caminho/para/Mega-brain
+cd caminho/para/base-de-estudos
 ```
 
 Depois de criar ou atualizar uma nota, confira as mudanças:

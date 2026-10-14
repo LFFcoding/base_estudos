@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catálogo GoF.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Catálogo GoF"
+              "title": "AGENTS"
             }
           }
         ]
@@ -187,9 +187,9 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "Catálogo GoF.md",
     "Método construtor.md",
     "Factory Pattern.md",
-    "Catálogo GoF.md",
     "Design Pattern.md",
     "Unity Engine.md",
     "Static.md",
