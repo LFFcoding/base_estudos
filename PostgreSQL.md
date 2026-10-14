@@ -2,7 +2,7 @@
 
 **PostgreSQL** é um sistema gerenciador de banco de dados (*database management system* ou DBMS) relacional, gratuito e de código aberto (*open source*).
 
-Ele guarda dados em tabelas, entende SQL e oferece recursos para consultar informações, controlar permissões, garantir transações e manter os dados consistentes.
+Ele guarda dados em tabelas, entende SQL e oferece recursos para consultar informações, controlar permissões, garantir [[Transação de banco|transações]] e manter os dados consistentes.
 
 Uma analogia é pensar em um gerente de arquivo:
 

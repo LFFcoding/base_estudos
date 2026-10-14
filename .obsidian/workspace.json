@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
+                "file": "Big O.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "Big O"
             }
           }
         ]
@@ -187,6 +187,14 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "ACID.md",
+    "ADR.md",
+    "Clean code.md",
+    "Transação de banco.md",
+    "Big O.md",
+    "Estruturas de dados.md",
+    "SOLID.md",
+    "AGENTS.md",
     "Catálogo GoF.md",
     "Método construtor.md",
     "Factory Pattern.md",
@@ -205,14 +213,6 @@
     "Facade Pattern.md",
     "Strategy Pattern.md",
     "Perlin Noise.md",
-    "Godot Engine.md",
-    "Unreal Engine.md",
-    "C++.md",
-    "C#.md",
-    "Programação procedural.md",
-    "Mapa procedural.md",
-    "Chamada estática vs injeção CDI.md",
-    "Apache CXF.md",
     "CI",
     "Visão geral",
     "Arquitetura",

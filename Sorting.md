@@ -28,7 +28,7 @@ Um algoritmo de sorting é uma sequência de passos que transforma uma lista des
 | **Quicksort** | Escolhe um pivô e separa itens menores e maiores. | `O(n log n)` em média | Muito eficiente em muitos cenários; a escolha do pivô importa. |
 | **Heap sort** | Usa uma estrutura de heap para escolher o próximo item. | `O(n log n)` | Oferece desempenho previsível, mas costuma ser menos simples. |
 
-`n` representa a quantidade de itens. Em geral, `O(n log n)` cresce melhor que `O(n²)` quando a lista fica grande.
+`n` representa a quantidade de itens. Em geral, `O(n log n)` cresce melhor que `O(n²)` quando a lista fica grande. [[Big O]] explica como interpretar essas estimativas de crescimento.
 
 Na prática, normalmente é melhor usar a função de ordenação da linguagem ou do banco de dados. Os algoritmos são importantes para entender o custo das escolhas e para situações especiais.
 

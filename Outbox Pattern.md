@@ -1,6 +1,6 @@
 # Outbox Pattern
 
-O **Outbox Pattern** (padrão outbox ou padrão da caixa de saída) é uma técnica para salvar uma alteração no banco de dados e registrar a mensagem que precisa ser enviada para outros sistemas dentro da mesma transação.
+O **Outbox Pattern** (padrão outbox ou padrão da caixa de saída) é uma técnica para salvar uma alteração no banco de dados e registrar a mensagem que precisa ser enviada para outros sistemas dentro da mesma [[Transação de banco|transação]].
 
 Depois, um processo separado lê os eventos registrados na tabela outbox e os publica em um [[Broker de fila]] ou em outro mecanismo de eventos.
 

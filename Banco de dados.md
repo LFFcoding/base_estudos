@@ -74,7 +74,7 @@ As operações de criar, consultar, alterar e excluir costumam ser resumidas pel
 
 ## Transações
 
-Uma transação (*transaction*) agrupa várias operações que devem ser tratadas como uma unidade.
+Uma [[Transação de banco|transação]] (*transaction*) agrupa várias operações que devem ser tratadas como uma unidade.
 
 Imagine uma transferência bancária: o sistema precisa retirar o dinheiro de uma conta e adicionar à outra. Se apenas uma parte acontecer, os dados ficam errados. A transação permite confirmar tudo junto ou desfazer tudo se houver um problema.
 
