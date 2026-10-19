@@ -85,6 +85,8 @@ Qual opção foi escolhida?
 
 O formato pode mudar conforme o projeto. O mais importante é que outra pessoa consiga entender o problema, a escolha e seus efeitos.
 
+Uma convenção conhecida para estruturar ADRs em Markdown é [[MADR]]. Ela apresenta modelos completos ou mínimos, com seções para fatores da decisão, opções consideradas, confirmação e consequências.
+
 ## Status de uma decisão
 
 O status mostra se a decisão ainda está sendo discutida ou se já orienta o projeto. Alguns estados comuns são:

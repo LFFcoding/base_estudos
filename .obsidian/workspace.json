@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big O.md",
+                "file": "FIFO e LIFO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Big O"
+              "title": "FIFO e LIFO"
             }
           }
         ]
@@ -187,11 +187,12 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
+    "Big O.md",
+    "FIFO e LIFO.md",
     "ACID.md",
     "ADR.md",
     "Clean code.md",
     "Transação de banco.md",
-    "Big O.md",
     "Estruturas de dados.md",
     "SOLID.md",
     "AGENTS.md",
@@ -212,7 +213,6 @@
     "Polimorfismo.md",
     "Facade Pattern.md",
     "Strategy Pattern.md",
-    "Perlin Noise.md",
     "CI",
     "Visão geral",
     "Arquitetura",
