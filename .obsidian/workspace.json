@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FIFO e LIFO.md",
+                "file": "MADR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FIFO e LIFO"
+              "title": "MADR"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "a02b7f9e9afd6283",
   "lastOpenFiles": [
-    "Big O.md",
+    "Agentic Systems Engineering.md",
     "FIFO e LIFO.md",
+    "Big O.md",
     "ACID.md",
     "ADR.md",
     "Clean code.md",
@@ -212,7 +213,6 @@
     "Classe abstrata.md",
     "Polimorfismo.md",
     "Facade Pattern.md",
-    "Strategy Pattern.md",
     "CI",
     "Visão geral",
     "Arquitetura",
